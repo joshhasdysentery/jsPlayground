@@ -2,7 +2,7 @@ const name = 'Joshua';
 let age = 2;
 const hasHobbies = true;
 
-function summarizeUser(userName, userAge, userHasHobby) {
+const summarizeuser = (userName, userAge, userHasHobby) => {
   return (
     'Name is ' +
     userName +
@@ -11,6 +11,12 @@ function summarizeUser(userName, userAge, userHasHobby) {
     ' and has hobbies ' +
     userHasHobby
   );
-}
+};
+
+// const add = (a, b) => a + b;
+
+// const addOne = (a) => a + 1;
+
+const addRandom = () => 1 + 2;
 
 console.log(summarizeUser(name, age, hasHobbies));
